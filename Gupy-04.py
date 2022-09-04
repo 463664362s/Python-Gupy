@@ -16,5 +16,4 @@ faturamento = {
 
 print("Porcentagem de venda por região:")
 for valor in faturamento:
-    #Função round arredonda os valores e sum soma os valores da lista
     print(f"{valor} = {round((faturamento[valor] * 100) / sum(faturamento[x] for x in faturamento))} %")
