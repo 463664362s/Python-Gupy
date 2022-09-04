@@ -6,7 +6,7 @@
 numeroAnterior = -1 
 numeroAtual = 1
 
-numero = int(input("Digite um número para verificar se ele está na sequência: "))
+numero = int(input("Digite um número para verificar se ele está na sequência de Fibonacci: "))
 
 while(1):
     fibonacci = numeroAnterior + numeroAtual
