@@ -129,10 +129,10 @@ vetor = [
 		"valor": 8414.61
 	}
 ]
+
 soma_faturamento = 0
 faturamento_diario_maior = 0
 dias_de_faturamento = 0
-
 vetor_sem_0 = []
 
 for n in range(len(vetor)):
@@ -140,8 +140,7 @@ for n in range(len(vetor)):
 		soma_faturamento = vetor[n]['valor'] + soma_faturamento
 		dias_de_faturamento = dias_de_faturamento + 1
 		vetor_sem_0.append(vetor[n])
-
-
+		
 def maiorfaturamento(vetor):
     return max(vetor, key=lambda d : d['valor'])
 
